@@ -30,7 +30,6 @@ const App = () => {
       {recipes.map((recipe) => (
         <Recipe
           title={recipe.recipe.label}
-          directions={recipe.recipe.url}
           calories={recipe.recipe.calories}
           totalTime={recipe.recipe.totalTime}
           image={recipe.recipe.image}
